@@ -12,7 +12,8 @@ plotly:
 start-lab:
 	jupyter lab
 
-test: execute-notebooks
+test:
+	# execute-notebooks
 	# Check formatting
 	python -m black --check --diff model
 	# Check docstrings
